@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Facture</title>
+    <!-- Bootstrap 5 CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container my-5">
+    <h1>Facture</h1>
+    <form action="FactureServlet" method="post">
+        <div class="mb-3">
+            <label for="numero" class="form-label">Numéro de facture:</label>
+            <input type="text" class="form-control" id="numero" name="numero">
+        </div>
+        <div class="mb-3">
+            <label for="montant" class="form-label">Montant:</label>
+            <input type="text" class="form-control" id="montant" name="montant">
+        </div>
+        <div class="mb-3">
+            <label for="tauxRemise" class="form-label">Taux de remise:</label>
+            <select class="form-select" id="tauxRemise" name="tauxRemise">
+                <option value="0">0%</option>
+                <option value="10">10%</option>
+                <option value="20">20%</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Reglement</button>
+        <button type="button" class="btn btn-info" onclick="clearForm()">Clear</button>
+        <a href="index.jsp" class="btn btn-secondary">Back</a>
+    </form>
+</div>
+
+<!-- Bootstrap 5 JS Bundle -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js"></script>
+<script>
+    function clearForm() {
+        // This function clears the form inputs and resets the select to its first option
+        document.querySelector('form').reset();
+    }
+</script>
+</body>
+</html>
