@@ -7,14 +7,14 @@
 </div>
 
 ## Pages:
-## Index.jcp
+### Index.jcp
 ![index](https://github.com/Marouane-Elgoumiri/TP-Evaluation-N1-JEE/assets/96888594/7d931887-2352-4de4-a855-77db226d6766)
 
-## Facture.html
+### Facture.html
 ![Facture](https://github.com/Marouane-Elgoumiri/TP-Evaluation-N1-JEE/assets/96888594/75d43806-ee20-4d79-b95b-caa0629e51a3)
 
-## Occurence.jcp:
+### Occurence.jcp:
 ![occurence](https://github.com/Marouane-Elgoumiri/TP-Evaluation-N1-JEE/assets/96888594/dc61ed66-338c-4374-b48b-80d9af2c6917)
 
-## Result facture:
+### Result facture:
 ![factureResult](https://github.com/Marouane-Elgoumiri/TP-Evaluation-N1-JEE/assets/96888594/ff15240c-6751-4b23-9a0d-f958350a4fb1)
